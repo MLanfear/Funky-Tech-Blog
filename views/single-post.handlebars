@@ -1,0 +1,20 @@
+{{!-- post partial --}}
+{{> post post}}
+
+{{!-- comments --}}
+{{> comments post.comments}}
+
+{{!-- only display comment form if logged in --}}
+{{#if loggedIn}}
+<form class="comment-form">
+    <div>
+        <textarea name="comment-body" id="create-comment"></textarea>
+    </div>
+
+    <div>
+        <button type="submit" class="btn btn-secondary">Add comment</button>
+    </div>
+</form>
+{{/if}}
+
+<script src="../public/Javascript/comment.js"></script>
