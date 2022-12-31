@@ -28,5 +28,6 @@
   "bugs": {
     "url": "https://github.com/MLanfear/Funky-Tech-Blog/issues"
   },
-  "homepage": "https://github.com/MLanfear/Funky-Tech-Blog#readme"
+  "homepage": "https://github.com/MLanfear/Funky-Tech-Blog#readme",
+  "devDependencies": {}
 }
